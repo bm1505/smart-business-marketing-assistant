@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Gemini API Key yako
-const API_KEY = "AIzaSyB_PGoABlGxRShYQ0vRbnxUg41H32vGoj4";
+const API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export const generateMarketingContent = async (category, prompt, businessInfo) => {
